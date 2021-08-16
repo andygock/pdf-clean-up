@@ -146,9 +146,10 @@
       JavaScript code.
     </p>
     <p>
-      All modifications is performed inside this browser and no data is stored or
-      transmitted elsewhere.
+      All modifications is performed inside this browser and no data is stored
+      or transmitted elsewhere.
     </p>
+    <p>Source: <a href="https://github.com/andygock/pdf-clean-up">GitHub</a></p>
   </div>
 </div>
 

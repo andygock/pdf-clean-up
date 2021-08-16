@@ -9,3 +9,5 @@ this.print({bUI: false, bSilent: true, bShrinkToFit: true});
 ```
 
 This is a drag and drop web app which attempts to remove this behaviour, by removing this JavaScript code.
+
+Demo: <https://pdf-clean-up.netlify.app/>
