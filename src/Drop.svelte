@@ -3,6 +3,7 @@
 
   const dispatch = createEventDispatcher();
 
+  export let multifile = false;
   export let readAsBuffer = false;
   export let readAsText = false;
   export let readAsArray = false;
@@ -33,10 +34,11 @@
     hover = false;
 
     if (ev.dataTransfer.items) {
-      if (ev.dataTransfer.items.length > 1) {
-        alert("Error: Multiple file drops not yet supported.");
+      if (!multifile && ev.dataTransfer.items.length > 1) {
+        alert("Error: Multiple file drops not supported.");
         return;
       }
+      dispatch("start");
       for (let i = 0; i < ev.dataTransfer.items.length; i++) {
         if (ev.dataTransfer.items[i].kind === "file") {
           // https://developer.mozilla.org/en-US/docs/Web/API/File
@@ -49,6 +51,7 @@
           if (readAsArray) sendArray(file);
         }
       }
+      dispatch("complete");
     }
   };
 
