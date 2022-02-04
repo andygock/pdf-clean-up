@@ -15,3 +15,25 @@ This is a drag and drop web app which attempts to remove this behaviour, by remo
 <https://pdf-clean-up.netlify.app/>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/534690ab-706e-404d-ae36-4837a28de857/deploy-status)](https://app.netlify.com/sites/pdf-clean-up/deploys)
+
+## Developers
+
+Install [pnpm](https://pnpm.io/)
+
+    npm install -g pnpm
+
+Install dependencies
+
+    pnpm install
+
+Start development server. Navigate to [localhost:8080](http://localhost:8080)
+
+    pnpm dev
+
+Build for production into `public/`. Bundled files end up in `public/build/`
+
+    pnpm build
+
+If required, use the following Netlify build command
+
+    pnpm build || ( npm install pnpm && pnpm build )
