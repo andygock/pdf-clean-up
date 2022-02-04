@@ -20,6 +20,7 @@
     "svelte": "^3.42.2"
   },
   "dependencies": {
+    "@okrad/svelte-progressbar": "^1.11.3",
     "js-base64": "^3.6.1",
     "jszip": "^3.7.1",
     "sirv-cli": "^2.0.2"

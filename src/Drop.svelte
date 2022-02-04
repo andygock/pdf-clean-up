@@ -38,7 +38,7 @@
         alert("Error: Multiple file drops not supported.");
         return;
       }
-      dispatch("start");
+      dispatch("start", { fileCount: ev.dataTransfer.items.length });
       for (let i = 0; i < ev.dataTransfer.items.length; i++) {
         if (ev.dataTransfer.items[i].kind === "file") {
           // https://developer.mozilla.org/en-US/docs/Web/API/File

@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@okrad/svelte-progressbar': ^1.11.3
   '@rollup/plugin-commonjs': ^21.0.1
   '@rollup/plugin-node-resolve': ^13.0.4
   js-base64: ^3.6.1
@@ -15,6 +16,7 @@ specifiers:
   svelte: ^3.42.2
 
 dependencies:
+  '@okrad/svelte-progressbar': 1.11.3
   js-base64: 3.7.2
   jszip: 3.7.1
   sirv-cli: 2.0.2
@@ -52,6 +54,10 @@ packages:
       chalk: 2.4.2
       js-tokens: 4.0.0
     dev: true
+
+  /@okrad/svelte-progressbar/1.11.3:
+    resolution: {integrity: sha512-lQj16yWD26mf+E6szOul1iC8pWFUgl/aLaM7gUKFuzKK8TcgKvLE6COOKTVL+jbWQbnWQOog3CR5oMOSEClHXg==}
+    dev: false
 
   /@polka/url/1.0.0-next.21:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
