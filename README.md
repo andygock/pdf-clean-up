@@ -12,9 +12,7 @@ This is a drag and drop web app which attempts to remove this behaviour, by remo
 
 ## Demo
 
-<https://pdf-clean-up.netlify.app/>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/534690ab-706e-404d-ae36-4837a28de857/deploy-status)](https://app.netlify.com/sites/pdf-clean-up/deploys)
+<https://pdf-clean-up.gock.net/>
 
 ## Developers
 
